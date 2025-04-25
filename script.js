@@ -15,7 +15,8 @@ if (btn) {
     "assets/fotos/Foto3Jota.jpg",
     "assets/fotos/Foto4Jota.jpg",
     "assets/fotos/Foto5Jota.jpg",
-    "assets/fotos/Foto6Jota.jpg"
+    "assets/fotos/Foto6Jota.jpg",
+    "assets/fotos/Foto7Jota.jpg"
   ];
   
   let index = 0;
