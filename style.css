@@ -36,18 +36,11 @@ body {
 
 /* --- MENU DE NAVEGAÇÃO FIXO NO TOPO --- */
 .menu-navegacao {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
   display: flex;
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
-  padding: 1rem;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  z-index: 10;
+  margin: 2rem 0;
 }
 
 .menu-navegacao a {
