@@ -160,3 +160,51 @@ body {
 .coracao:nth-child(8) { left: 80%; animation-delay: 1.5s; }
 .coracao:nth-child(9) { left: 90%; animation-delay: 3.5s; }
 .coracao:nth-child(10) { left: 95%; animation-delay: 6s; }
+
+
+.quiz-container {
+  margin: 50px auto;
+  max-width: 600px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.opcoes {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.botao-opcao {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-opcao:hover {
+  background-color: #ff85c1;
+}
+
+.progresso {
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.hidden {
+  display: none;
+}
+
+.final {
+  margin-top: 50px;
+  font-size: 1.4rem;
+  color: white;
+}
+
