@@ -254,3 +254,28 @@ body {
   transform: scale(1.05);
   background-color: #ff85c1;
 }
+
+/* --- MENU DE NAVEGAÇÃO --- */
+.menu-navegacao {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.menu-navegacao a {
+  padding: 0.8rem 1.5rem;
+  background-color: #ffc6f5;
+  color: #2c003e;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.menu-navegacao a:hover {
+  background-color: #ffaad4;
+  transform: scale(1.05);
+}
+
