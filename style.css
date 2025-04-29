@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0;
-  padding: 80px 0 0; /* 👈 ajuste aqui: espaço para o menu fixo */
+  padding-top: 120px; /* 👈 Espaço maior para os botões fixos */
   font-family: 'Segoe UI', sans-serif;
   background-color: #000;
   color: white;
@@ -263,6 +263,7 @@ body {
   background-color: #ff85c1;
 }
 
+/* Espaço automático para a navbar */
 #navbar-container {
   margin-bottom: 2rem;
 }
