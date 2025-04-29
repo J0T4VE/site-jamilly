@@ -55,8 +55,6 @@ body {
   z-index: 0;
 }
 
-
-
 .segunda-tela > * {
   position: relative;
   z-index: 1;
@@ -119,3 +117,48 @@ body {
   margin-top: 3rem;
   font-style: italic;
 }
+
+/* --- FUNDO DE CORAÇÕES ANIMADOS --- */
+.background-corações {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.coracao {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 192, 203, 0.7); /* rosa clarinho */
+  clip-path: polygon(50% 0%, 61% 12%, 75% 12%, 85% 25%, 85% 40%, 75% 55%, 50% 80%, 25% 55%, 15% 40%, 15% 25%, 25% 12%, 39% 12%);
+  animation: flutuar 10s linear infinite;
+}
+
+@keyframes flutuar {
+  0% {
+    transform: translateY(100vh) scale(1);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-10vh) scale(1.5);
+    opacity: 0;
+  }
+}
+
+.coracao:nth-child(1) { left: 10%; animation-delay: 0s; }
+.coracao:nth-child(2) { left: 20%; animation-delay: 2s; }
+.coracao:nth-child(3) { left: 30%; animation-delay: 4s; }
+.coracao:nth-child(4) { left: 40%; animation-delay: 1s; }
+.coracao:nth-child(5) { left: 50%; animation-delay: 3s; }
+.coracao:nth-child(6) { left: 60%; animation-delay: 5s; }
+.coracao:nth-child(7) { left: 70%; animation-delay: 2.5s; }
+.coracao:nth-child(8) { left: 80%; animation-delay: 1.5s; }
+.coracao:nth-child(9) { left: 90%; animation-delay: 3.5s; }
+.coracao:nth-child(10) { left: 95%; animation-delay: 6s; }
