@@ -9,6 +9,16 @@
 </head>
 <body class="segunda-tela">
 
+  <!-- Navbar dinâmica -->
+  <div id="navbar-container"></div>
+  <script>
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-container').innerHTML = data;
+      });
+  </script>
+
   <!-- Fundo de corações -->
   <div class="background-corações">
     <span class="coracao"></span>

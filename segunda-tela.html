@@ -8,6 +8,16 @@
 </head>
 <body class="segunda-tela">
 
+  <!-- Navbar dinâmica -->
+  <div id="navbar-container"></div>
+  <script>
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar-container').innerHTML = data;
+      });
+  </script>
+
   <!-- Fundo de corações animados -->
   <div class="background-corações">
     <span class="coracao"></span>
@@ -49,17 +59,10 @@
       Eu amo você, minha princesa.
       Sempre que se sentir mal ou algo do tipo, escanea o QR Code e veja a gente e lembre-se que as vezes pode ser uma fase difícil ou um dia difícil, e no final teremos a gente é tudo dará certo. 
       Te amo e te quero pra sempre, minha princesa. Já falei que ce me faz feliz? Kkkkkk estou escrevendo isso com um sorriso no rosto lembrando da gente kkkkkk eu amo você demais, sou louco por você. 
-      
-      Feliz dois anos da gente, minha princesa.
-      
-      
-      
-      Te amo demais demais demais demais 💗</p>
-  </div>
 
-  <!-- Botão para o Quiz -->
-  <div class="botao-quiz-container">
-    <a href="quiz.html" class="botao-quiz">Ir para o Quiz do Amor 💖</a>
+      Feliz dois anos da gente, minha princesa.
+
+      Te amo demais demais demais demais 💗</p>
   </div>
 
   <!-- Assinatura -->
