@@ -208,3 +208,22 @@ body {
   color: white;
 }
 
+.botao-quiz-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.botao-quiz {
+  background-color: #ff69b4;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao-quiz:hover {
+  background-color: #ff85c1;
+}
