@@ -48,12 +48,10 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("assets/planta.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(135deg, #2d0b43, #1a0428, #0d0118);
   z-index: 0;
 }
+
 
 .segunda-tela > * {
   position: relative;
