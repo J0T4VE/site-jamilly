@@ -262,3 +262,7 @@ body {
 .botao-quiz:hover {
   background-color: #ff85c1;
 }
+
+#navbar-container {
+  margin-bottom: 2rem;
+}
