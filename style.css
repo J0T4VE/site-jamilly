@@ -48,12 +48,13 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("assets/fundo.jpg");
+  background-image: url("assets/planta.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
 }
+
 
 
 .segunda-tela > * {
